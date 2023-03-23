@@ -1,0 +1,75 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Estoque Geral</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/font/stylesheet.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/estilo.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/reset.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/imagens" asp-append-version="true" />
+    <link rel="stylesheet" href="~/EstoqueGeral.styles.css" asp-append-version="true" />
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+            <div class="container-fluid">
+                <div class="menu navbar-collapse" id="navbarColor01">
+                 <img href="<~imagens/logo.JPEG" title="logomarca">
+                <a class="menu navbar-brand text-dark" asp-area="" asp-controller="Home" asp-action="Index">Sistema Estoque</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation" _msthidden="A" _mstaria-label="320099" _msthash="44">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                    <ul class="navbar-nav me-auto">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark icone icone01" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link text-dark dropdown-toggle icone icone02" data-bs-toggle="dropdown" asp-area="" asp-controller="Home" asp-action="Index">Cadastros</a>
+                            <div class="dropdown-menu" _msthidden="4">
+                                <a class="dropdown-item text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Produto</a>
+                                <a class="dropdown-item text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Entrada de Produtos</a>
+                                <a class="dropdown-item text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Cliente</a>
+                                <a class="dropdown-item text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Fornecedor</a>
+
+                            </div>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link text-dark dropdown-toggle icone icone03" data-bs-toggle="dropdown" asp-area="" asp-controller="Home" asp-action="Index">Estoque</a>
+                            <div class="dropdown-menu" _msthidden="4">
+                                <a class="dropdown-item text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Entrada de Produto</a>
+                                <a class="dropdown-item text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Saída de Produtos</a>
+                                <a class="dropdown-item text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Movimentação Geral</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark icone icone04" asp-area="" asp-controller="Home" asp-action="Index">Vendas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark icone icone05" asp-area="" asp-controller="Home" asp-action="Index">Sair</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+    <hr />
+    <footer class="border-top footer text-muted">
+        <div class="container text-center">
+            &copy; 2023 - Desenvolvido por Carlos Eduardo  - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+        </div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
