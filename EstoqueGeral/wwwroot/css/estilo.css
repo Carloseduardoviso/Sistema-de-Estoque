@@ -15,16 +15,12 @@
     font-style: normal;
 
 }
-body {
-font-size:1em; font-family:robotoregular; background:#fff;
-}
-ul{list-style:none;}
-a {text-decoration:none;}
 
-.conteudo{
-	width:1100px;
-	margin:0 auto;
-}
+
+
+
+
+
 .base-login{
 	width:100%;
 	float:left;
@@ -271,107 +267,6 @@ a {text-decoration:none;}
 .base-home .titulo span{
 	
 }
-.caixa-home{
-	width:100%;
-	float:left;
-	padding:40px 0;
-}
-
-/*home*/
-.base-relatorio-home{
-	width:100%;
-	float:left;
-	padding:20px;
-	background:#ddd;
-	border:solid 2px #ddd;
-	border-radius:15px;
-}
-.base-relatorio-home  h3{
-	display:block;
-	font-size:26px;
-	font-weight:normal;
-	color:#004D66;
-	text-transform:uppercase;
-	margin-bottom:20px;
-}
-.base-relatorio-home  section{
-	display:block;
-	
-}
-.base-relatorio-home  article{
-	width:247px;
-	float:left;
-	margin-right:22px;
-	background:#ddd;
-	overflow:hidden;
-	border-radius:3px;
-	-webkit-border-radius:3px;
-	-moz-border-radius:3px;
-	-o-border-radius:3px;
-	-ms-border-radius:3px;
-	text-align:center;
-}
-.base-relatorio-home  article span{
-	display:block;
-	font-size:40px;
-	font-weight:bold;
-	padding:0 20px;
-}
-.base-relatorio-home  article small{
-	display:block;
-	font-size:12px;
-	padding:20px 20px;
-	text-transform:uppercase;
-}
-.base-relatorio-home  article h2{
-	display:block;
-	font-size:16px;
-	background:#666;
-	color:#fff;
-	font-weight:inherit;
-	padding:15px;
-	text-transform:uppercase;
-	margin-bottom:20px;
-	text-align:center;
-	position:relative;
-}
-.base-relatorio-home  article h2:before{
-	content:"";
-	position:absolute;
-	left:115px;
-	bottom:-15px;
-	border:solid 8px transparent;
-	border-top:solid 8px #666;
-}
-.base-relatorio-home  article:nth-of-type(4n+0){
-	margin-right:0;
-}
-/*adiciono cores disponiveis*/
-	.base-relatorio-home .r-disponiveis article {
-		background: #777777;
-		background: linear-gradient(#777777, #ccc);
-		background: -webkit-linear-gradient(#777777, #ccc);
-		background: -moz-linear-gradient(#777777, #ccc);
-		background: -o-linear-gradient(#777777, #ccc);
-		background: -ms-linear-gradient(#777777, #ccc);
-		border-radius: 10%;
-	}
-.base-relatorio-home .r-disponiveis article h2{	background:#333333;}
-.base-relatorio-home  .r-disponiveis article h2:before{border-top:solid 8px #333333}
-.base-relatorio-home .r-disponiveis article span{color:#111;}
-.base-relatorio-home .r-disponiveis article small{color:#333333;}
-
-/*adiciono cores problemas*/
-	.base-relatorio-home .r-promemas article {
-		background: linear-gradient(#777777, #ccc);
-		border-radius: 10%;
-	}
-.base-relatorio-home .r-promemas {width:100%; float:left;margin-top:60px;}
-.base-relatorio-home .r-promemas h3{color:#D90000}
-.base-relatorio-home .r-promemas article h2{background:#333333}
-.base-relatorio-home .r-promemas  article h2:before{border-top:solid 8px #333333}
-.base-relatorio-home .r-promemas article span{color:#D90000}
-.base-relatorio-home .r-promemas article small{color:#D90000}
 
 
 /*formularios*/
