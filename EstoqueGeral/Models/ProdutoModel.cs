@@ -1,4 +1,7 @@
-﻿namespace SistemaEstoque.Models
+﻿
+using Microsoft.EntityFrameworkCore;
+
+namespace SistemaEstoque.Models
 {
     public class ProdutoModel
     {
@@ -25,5 +28,6 @@
             Preco = preco;
             Ativo = ativo;
         }
+            
     }
 }

@@ -18,8 +18,7 @@
         <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
             <div class="container-fluid">
                 <div class="menu navbar-collapse" id="navbarColor01">
-                    <img href="<~imagens/logo.JPEG" title="logomarca">
-                    <a class="menu navbar-brand text-dark" asp-area="" asp-controller="Home" asp-action="Index">Sistema Estoque</a>
+                    <a class="menu navbar-brand text-dark" asp-area="" asp-controller="Home" asp-action="Index">SISTEMA DE ESTOQUE</a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation" _msthidden="A" _mstaria-label="320099" _msthash="44">
                         <span class="navbar-toggler-icon"></span>
                     </button>
@@ -30,10 +29,9 @@
                         <li class="nav-item dropdown">
                             <a class="nav-link text-white dropdown-toggle" data-bs-toggle="dropdown" asp-area="" asp-controller="Home" asp-action="Index">Cadastros</a>
                             <div class="dropdown-menu" _msthidden="4">
-                                <a class="dropdown-item text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Produto</a>
-                                <a class="dropdown-item text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Entrada de Produtos</a>
-                                <a class="dropdown-item text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Cliente</a>
-                                <a class="dropdown-item text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Fornecedor</a>
+                                <a class="dropdown-item text-dark" asp-area="" asp-controller="Produto" asp-action="frmProduto">Produtos</a>
+                                <a class="dropdown-item text-dark" asp-area="" asp-controller="Cliente" asp-action="frmCliente">Cliente</a>
+                                <a class="dropdown-item text-dark" asp-area="" asp-controller="Fornecedor" asp-action="frmFornecedor">Fornecedor</a>
 
                             </div>
                         </li>

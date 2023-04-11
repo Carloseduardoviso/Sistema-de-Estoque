@@ -9,7 +9,19 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Views\Produto\NovaPasta\**" />
+    <Content Remove="Views\Produto\NovaPasta\**" />
+    <EmbeddedResource Remove="Views\Produto\NovaPasta\**" />
+    <None Remove="Views\Produto\NovaPasta\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Compile Remove="Models\FuncionarioModel.cs" />
+    <Compile Remove="Views\Produto\Index.cshtml.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="Views\Produto\Index.cshtml" />
   </ItemGroup>
 
   <ItemGroup>
