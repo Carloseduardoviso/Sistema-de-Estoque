@@ -11,6 +11,11 @@ namespace EstoqueGeral.Controllers
             return View(frmProduto);
         }
 
+        public ActionResult istProduto()
+        {
+            return View(istProduto);
+        }
+
         // GET: ProdutoController/Details/5
         public ActionResult Details(int id)
         {

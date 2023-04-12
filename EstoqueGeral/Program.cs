@@ -1,4 +1,9 @@
+﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
+using EstoqueGeral.Data;
 var builder = WebApplication.CreateBuilder(args);
+builder.Services.AddDbContext<EstoqueGeralContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("EstoqueGeralContext") ?? throw new InvalidOperationException("Connection string 'EstoqueGeralContext' not found.")));
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();

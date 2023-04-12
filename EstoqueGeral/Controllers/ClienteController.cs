@@ -8,5 +8,10 @@ namespace EstoqueGeral.Controllers
         {
             return View(frmCliente);
         }
+
+        public IActionResult istCliente()
+        {
+            return View(istCliente);
+        }
     }
 }

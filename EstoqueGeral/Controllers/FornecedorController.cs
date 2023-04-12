@@ -8,5 +8,9 @@ namespace EstoqueGeral.Controllers
         {
             return View(frmFornecedor);
         }
+        public IActionResult istFornecedor()
+        {
+            return View(istFornecedor);
+        }
     }
 }
