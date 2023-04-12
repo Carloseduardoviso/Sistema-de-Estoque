@@ -1,0 +1,66 @@
+﻿<div class="conteudo">
+    <div class="base-geral">
+        <h1 class="titulo"><span>cliente</span></h1>
+        <div class="base-home">
+
+            <div class="base-lista">
+                <div class="formback">
+                    <div class="caixa01">
+                        <a href="" class="btn">Consulta cliente</a>
+                    </div>
+                    <form method="post">
+                        <div class="caixa02">
+
+                            <input type="text" name="pesq" id="pesq" placeholder="Pesquisar">
+                            <input type="button" value="ir" class="btn" onclick="buscaCliente()">
+                        </div>
+                    </form>
+
+
+                </div>
+
+            </div>
+
+            <div class="base-lista">
+                <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                    <thead>
+                        <tr>
+                            <th width="2%" align="left">Id</th>
+                            <th width="34%" align="center">Cliente</th>
+                            <th width="23%" align="center">Email</th>
+                            <th width="21%" align="center">Celular</th>
+                            <th width="20%" align="center">Ação</th>
+                        </tr>
+                    </thead>
+                    <tbody id="listaAluno">
+                        @*<?php
+                        foreach ($lista as $linha){
+                        ?>*@
+                        <tr>
+                            <td align="left">id_cliente</td>
+                            <td align="left">cliente</td>
+                            <td align="left">email</td>
+                            <td align="center">celular</td>
+                            <td align="center">
+                                <a href="" class="btn alterar">ALTERAR</a>
+                                <a href="" onclick="" class="btn excluir">excluir</a>
+                            </td>                         
+                        </tr>
+
+                    </tbody>
+                </table>
+            </div>
+            <div class="base-pag">
+                <p>Mostrando de 1 até 10 de 26 registros</p>
+                <ul class="paginacao">
+                    <li><a href="" class="anterior">Anterior</a></li>
+                    <li><a href="">1</a></li>
+                    <li><a href="">2</a></li>
+                    <li><a href="">3</a></li>
+                    <li><a href="">[...]</a></li>
+                    <li><a href="" class="proximo">Próximo</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>

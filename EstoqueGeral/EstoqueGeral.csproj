@@ -9,7 +9,20 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Views\Produto\NovaPasta\**" />
+    <Content Remove="Views\Produto\NovaPasta\**" />
+    <EmbeddedResource Remove="Views\Produto\NovaPasta\**" />
+    <None Remove="Views\Produto\NovaPasta\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Compile Remove="Models\FuncionarioModel.cs" />
+    <Compile Remove="Views\Produto\Index.cshtml.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="Models\teste.cshtml" />
+    <Content Remove="Views\Produto\Index.cshtml" />
   </ItemGroup>
 
   <ItemGroup>
@@ -36,7 +49,7 @@
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
     <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.17.2" />
-    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.12" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.13" />
   </ItemGroup>
 
 </Project>
