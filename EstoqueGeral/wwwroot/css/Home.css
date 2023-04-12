@@ -3,7 +3,7 @@
 body {
     font-size: 1em;
     font-family: robotoregular;
-    background: #666;
+    background-color:  #fff;
 }
 
 ul {
@@ -29,7 +29,7 @@ a {
     width: 100%;
     float: left;
     padding: 15px;
-    background: #fff;
+    background: #777777;
     border: solid 2px #ddd;
     border-radius: 50px;
 }
@@ -90,7 +90,7 @@ relatorio-home section {
 
 .base-relatorio-home article h2 {
     /*adiciono cores disponiveis*/
-    .base-relatorio-home .r-disponiveis article
+    .base-relatorio-home .card-home article
 
 {
     background: #777777;
@@ -190,4 +190,6 @@ relatorio-home section {
             border: solid 7px transparent;
             border-top: solid 10px #000;
         }
-
+.logo{
+   
+}
