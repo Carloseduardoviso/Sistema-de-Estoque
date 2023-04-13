@@ -3,11 +3,8 @@
 body {
     font-size: 1em;
     font-family: robotoregular;
-<<<<<<< HEAD
     background: #ddd;
-=======
-    background-color:  #fff;
->>>>>>> b36436c5c8af3c3142a861ba20b6f1fe6396156b
+    background-color:  #ddd;
 }
 
 ul {
@@ -33,7 +30,7 @@ a {
     width: 100%;
     float: left;
     padding: 15px;
-    background: #777777;
+    background: #fff;
     border: solid 2px #ddd;
     border-radius: 50px;
 }
