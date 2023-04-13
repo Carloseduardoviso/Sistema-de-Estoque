@@ -3,7 +3,11 @@
 body {
     font-size: 1em;
     font-family: robotoregular;
+<<<<<<< HEAD
     background: #ddd;
+=======
+    background-color:  #fff;
+>>>>>>> b36436c5c8af3c3142a861ba20b6f1fe6396156b
 }
 
 ul {
@@ -29,7 +33,7 @@ a {
     width: 100%;
     float: left;
     padding: 15px;
-    background: #fff;
+    background: #777777;
     border: solid 2px #ddd;
     border-radius: 50px;
 }
@@ -88,7 +92,7 @@ relatorio-home section {
 
 .base-relatorio-home article h2 {
     /*adiciono cores disponiveis*/
-    .base-relatorio-home .r-disponiveis article
+    .base-relatorio-home .card-home article
 
 {
     background: #777777;
@@ -186,4 +190,6 @@ relatorio-home section {
             border: solid 7px transparent;
             border-top: solid 10px #000;
         }
-
+.logo{
+   
+}

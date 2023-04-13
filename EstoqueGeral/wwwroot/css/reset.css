@@ -3,8 +3,7 @@ html5doctor.com Reset Stylesheet
 v1.4.1
 2010-03-01
 Author: Richard Clark - http://richclarkdesign.com
-*/
-/**{
+*{
 	margin:0; padding:0;
 	box-sizing:border-box;
 	-webkit-box-sizing:border-box;
@@ -103,4 +102,5 @@ hr {
  
 input, select {
     vertical-align:middle;
-}*/
+}
+*/
