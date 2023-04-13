@@ -1,0 +1,344 @@
+﻿.base-geral {
+    width: 100%;
+    float: left;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+    .base-geral .titulo {
+        display: block;
+        background: #777777;
+        padding: 15px;
+        font-weight: normal;
+        color: #fff;
+        font-size: 20px;
+        position: relative;
+        z-index: 1;
+    }
+
+
+
+/*base home*/
+.base-home {
+    width: 100%;
+    float: left;
+    background: #f8f8f8;
+    padding: 20px;
+    border-radius: 0 0 5px 5px;
+    -webkit-border-radius: 0 0 5px 5px;
+    -moz-border-radius: 0 0 5px 5px;
+    -o-border-radius: 0 0 5px 5px;
+    -ms-border-radius: 0 0 5px 5px;
+    box-shadow: 0 0 8px 0 #ccc;
+}
+
+    .base-home .titulo {
+        display: block;
+        background: #f8f8f8;
+        padding: 10px 20px;
+        text-transform: uppercase;
+        font-weight: 700;
+    }
+
+        .base-home .titulo span {
+        }
+
+
+/*formularios*/
+.base-form {
+    width: 100%;
+    float: left;
+}
+
+    .base-form h2 {
+        padding: 15px;
+        display: block;
+        text-align: left;
+        background: #E8E8E8;
+        font-size: 16px;
+        color: #777777;
+        background: linear-gradient(#E8E8E8, #CCCCCC);
+        background: -webkit-linear-gradient(#E8E8E8, #CCCCCC);
+        background: -moz-linear-gradient(#E8E8E8, #CCCCCC);
+        background: -o-linear-gradient(#E8E8E8, #CCCCCC);
+        background: -ms-linear-gradient(#E8E8E8, #CCCCCC);
+        margin-bottom: 30px;
+        text-transform: uppercase;
+    }
+
+    .base-form h3 {
+        color: #777777;
+        padding-bottom: 15px;
+        display: block;
+        text-align: left;
+        font-weight: normal;
+        font-size: 20px;
+        text-transform: uppercase;
+    }
+
+    .base-form .caixa {
+        width: 520px;
+        float: left;
+        margin-bottom: 10px;
+    }
+
+    .base-form .marcacao {
+        width: 100%;
+        float: left;
+        border: solid 1px #ddd;
+        padding: 20px;
+        margin-bottom: 20px;
+        background: #fff;
+        position: relative;
+    }
+
+        .base-form .marcacao .mostratexto {
+            position: absolute;
+            top: 95px;
+            left: 20px;
+            right: 20px;
+            background: #eee;
+            border: solid 1px #ddd;
+            display: none;
+        }
+
+            .base-form .marcacao .mostratexto p {
+                padding: 10px;
+                color: #333;
+            }
+
+                .base-form .marcacao .mostratexto p:hover {
+                    background: #f5f5f5;
+                }
+
+    .base-form .detalhe-cliente {
+        width: 100%;
+        float: left;
+        border: solid 1px #ddd;
+        margin-top: 5px;
+        padding: 10px;
+    }
+
+        .base-form .detalhe-cliente p {
+            line-height: 25px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            font-size: 14px;
+        }
+    /*aqui qiando repetir a class caixa pela segunda fez colo float right*/
+    .base-form .caixa:nth-of-type(2n+0) {
+        float: right;
+    }
+
+    .base-form .caixa:nth-of-type(3n+0) {
+        width: 100%;
+    }
+
+    .base-form .caixa .base-lista {
+        margin-top: 30px;
+        clear: both;
+        float: left;
+    }
+
+    .base-form .coluna1 {
+        width: 99px;
+        float: left;
+        margin-right: 9px;
+    }
+
+    .base-form .coluna2 {
+        width: 434px;
+        float: left;
+    }
+
+    .base-form .coluna3 {
+        width: 100px;
+        float: left;
+        margin-left: 9px;
+    }
+
+        .base-form .coluna3 .btn {
+            margin-top: 0;
+            display: inline;
+            width: 100%;
+        }
+
+
+    .base-form .coluna4 {
+        width: 246px;
+        float: left;
+        margin-left: 9px;
+        position: relative;
+    }
+
+        .base-form .coluna4 .btn {
+            top: 0;
+            position: absolute;
+            right: 0;
+            margin-top: 0;
+            bottom: 0;
+            background: #00698c;
+        }
+
+.base-lista .ativo:before {
+    content: url(../imagens/icone-ativo.png);
+    margin-right: 5px;
+}
+
+.base-lista .nao-ativo:before {
+    content: url(../imagens/icone-nao-ativo.png);
+    margin-right: 5px;
+}
+
+.base-form .base-home {
+    padding: 15px;
+    text-align: left;
+    margin-top: 25px;
+}
+
+
+/*botoes*/
+.basse-botoes {
+    width: 100%;
+    float: left;
+    margin-top: 10px;
+    text-align: right;
+}
+
+    .basse-botoes .btn {
+        padding: 15px;
+        font-size: 16px;
+    }
+
+        .basse-botoes .btn.limpar {
+            background: linear-gradient(#FFC926,#E8AE00);
+            background: -webkit-linear-gradient(#FFC926,#E8AE00);
+            background: -moz-linear-gradient(#FFC926,#E8AE00);
+            background: -o-linear-gradient(#FFC926,#E8AE00);
+            background: -ms-linear-gradient(#FFC926,#E8AE00);
+            border: solid 1px #E8AE00;
+            color: #000;
+        }
+
+            .basse-botoes .btn.limpar:hover {
+                background: #FFC926;
+            }
+
+            .basse-botoes .btn.limpar::before {
+                content: url(../imagens/icone-limpar.png);
+                margin-right: 5px;
+                float: left;
+            }
+
+        .basse-botoes .btn.finalizar::before {
+            content: url(../imagens/icone-finalizar.png);
+            margin-right: 5px;
+            float: left;
+        }
+
+        .basse-botoes .btn.cancelar::before {
+            content: url(../imagens/icone-cancelar.png);
+            margin-right: 5px;
+            float: left;
+        }
+
+        .basse-botoes .btn.finalizar {
+            background: linear-gradient(#5DCA93,#00B259);
+            background: -webkit-linear-gradient(#5DCA93,#00B259);
+            background: -moz-linear-gradient(#5DCA93,#00B259);
+            background: -o-linear-gradient(#5DCA93,#00B259);
+            background: -ms-linear-gradient(#5DCA93,#00B259);
+            border: solid 1px #00B259;
+        }
+
+            .basse-botoes .btn.finalizar:hover {
+                background: #5DCA93;
+            }
+
+        .basse-botoes .btn.cancelar {
+            background: linear-gradient(#D90000,#B20000);
+            background: -webkit-linear-gradient(#D90000,#B20000);
+            background: -moz-linear-gradient(#D90000,#B20000);
+            background: -o-linear-gradient(#D90000,#B20000);
+            background: -ms-linear-gradient(#D90000,#B20000);
+            border: solid 1px #B20000;
+        }
+
+            .basse-botoes .btn.cancelar:hover {
+                background: #D90000;
+            }
+
+.base-form input, .base-form textaarea, .base-form select {
+    width: 100%;
+    padding: 13px;
+    background: #F4F4F4;
+    border: solid 1px #ccc;
+}
+
+    .base-form input[type=date] { /*aqui faço uma alteração no campo date*/
+        padding: 8px 10px;
+    }
+
+.base-form span {
+    display: block;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+    font-size: 13px;
+    clear: both;
+    color: #444;
+}
+
+.base-form .btn {
+    background: #00BFFF;
+    width: auto;
+    border: 0;
+    margin-top: 10px;
+}
+
+    .base-form .btn:hover {
+        background: #00A2D7;
+        cursor: pointer;
+    }
+
+.separa {
+    width: 220px;
+    float: left;
+}
+
+    .separa:nth-of-type(2n+0) {
+        float: right;
+    }
+
+/*separa três colunas*/
+.separa3 {
+    width: 128px;
+    float: left;
+    margin-right: 28px;
+}
+
+    .separa3:nth-of-type(3n+0) {
+        float: right;
+        margin-right: 0;
+    }
+
+/*tamanho 100%*/
+.base-form .caixa100 {
+    width: 100%;
+    float: left;
+    margin-bottom: 10px;
+}
+
+    .base-form .caixa100 .marcacao {
+        padding: 30px 50px;
+    }
+
+    .base-form .caixa100 .separa {
+        width: 450px;
+        margin-right: 10px;
+    }
+
+        .base-form .caixa100 .separa:nth-of-type(2n+0) {
+            margin-right: 0px;
+        }
+

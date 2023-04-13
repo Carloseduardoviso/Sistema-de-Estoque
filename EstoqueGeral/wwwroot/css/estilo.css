@@ -222,27 +222,10 @@
 
 
 
-/*base geral*/
-.base-geral{
-	width:100%;
-	float:left;
-	margin-bottom:40px;
-	margin-top:40px;
-}
-.base-geral .titulo{
-	display:block;
-	background:#00698C;
-	padding:15px;
-	text-transform:uppercase;
-	font-weight:normal;
-	color:#fff;
-	font-size:20px;
-	position:relative;
-	z-index:1;
-}
+
 
 /*base home*/
-.base-home{
+/*.base-home{
 	width:100%;
 	float:left;
 	background:#f8f8f8;
@@ -266,11 +249,11 @@
 }
 .base-home .titulo span{
 	
-}
+}*/
 
 
 /*formularios*/
-.base-form{
+/*.base-form{
 	width:100%;
 	float:left;
 }
@@ -341,9 +324,9 @@
 	padding-top:5px;
 	padding-bottom:5px;
 	font-size:14px;
-}
+}*/
 /*aqui qiando repetir a class caixa pela segunda fez colo float right*/
-.base-form .caixa:nth-of-type(2n+0){
+/*.base-form .caixa:nth-of-type(2n+0){
 	float:right;
 }
 .base-form .caixa:nth-of-type(3n+0){
@@ -403,9 +386,9 @@
 	padding:15px;
 	text-align:left;
 	margin-top: 25px;
-}
+}*/
 /*botoes*/
-.basse-botoes{
+/*.basse-botoes{
 	width:100%;
 	float:left;
 	margin-top:10px;
@@ -470,8 +453,8 @@
 	background:#F4F4F4;
 	border:solid 1px #ccc;
 }
-.base-form input[type=date]{/*aqui faço uma alteração no campo date*/
-	padding:8px 10px;
+.base-form input[type=date]{*//*aqui faço uma alteração no campo date*/
+	/*padding:8px 10px;
 }
 .base-form span{
 	display:block;
@@ -498,10 +481,10 @@
 }
 .separa:nth-of-type(2n+0){
 	float:right;
-}
+}*/
 
 /*separa três colunas*/
-.separa3{
+/*.separa3{
 	width:128px;
 	float:left;
 	margin-right:28px;
@@ -509,10 +492,10 @@
 .separa3:nth-of-type(3n+0){
 	float:right;
 	margin-right:0;
-}
+}*/
 
 /*tamanho 100%*/
-.base-form .caixa100{
+/*.base-form .caixa100{
 	width:100%;
 	float:left;
 	margin-bottom:10px;
@@ -527,7 +510,7 @@
 }
 .base-form .caixa100 .separa:nth-of-type(2n+0){
 	margin-right:0px;
-}
+}*/
 
 
 /*base rodape*/
